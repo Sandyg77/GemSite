@@ -14,17 +14,55 @@ body {
 /* Navbar styles */
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: #fff8f0;
-  padding: 12px 30px;
-  border-bottom: 1px solid #ddd;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem;
+  background-color: #fff;
+  position: relative;
 }
 
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    display: none;
+    padding: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .search-container {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
 .navbar .logo {
   height: 40px;
   margin-right: 10px;
