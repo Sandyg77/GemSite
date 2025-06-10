@@ -205,14 +205,39 @@ section > div {
 }
 
 .gem-box {
-  background: #fff;
-  border: 1px solid #eee;
-  border-radius: 10px;
-  padding: 16px;
+  position: relative;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #fff;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  flex: 0 0 auto;
-  width: 220px;
+}
+
+.sale-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  border-radius: 6px;
+}
+
+.price {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 8px;
+}
+
+.discounted-price {
+  color: #2ecc71;
+  font-weight: bold;
 }
 
 .gem-box img {
