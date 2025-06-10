@@ -6,13 +6,29 @@
     <title>Zahara Gems</title>
     <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
+    <!-- Header -->
     <header>
-      <nav>
-        <div>ZAHARA GEMS</div>
-        <ul>
-          <li><a href="index.html">Gemstones</a></li>
+      <nav class="navbar">
+        <div class="logo-container">
+          <img src="images/logo.jpg" alt="logo" class="logo" />
+          <span>ZAHARA GEMS</span>
+        </div>
+        <ul class="nav-links">
+          <li class="dropdown">
+            <a href="#">Gemstones <i class="fas fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Ruby</a></li>
+              <li><a href="#">Sapphire</a></li>
+              <li><a href="#">Emerald</a></li>
+              <li><a href="#">Diamond</a></li>
+            </ul>
+          </li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact Us</a></li>
           <li><a href="products.html">Gallery</a></li>
@@ -20,14 +36,17 @@
       </nav>
     </header>
 
+    <!-- Main Content -->
     <main>
+      <!-- Hero Section -->
       <section>
         <h1>Discover the Brilliance</h1>
-        <img src="/images/banner1.jpg" alt="banner" />
+        <img src="images/banner1.jpg" alt="banner" />
         <p>The True Sparkle of Sri Lanka. Let Brilliance Speak.</p>
-        <a href="">Explore Collection</a>
+        <a href="#">Explore Collection</a>
       </section>
 
+      <!-- Why Zahara -->
       <section>
         <h2>Why Zahara Gems?</h2>
         <div class="features-grid">
@@ -38,29 +57,25 @@
         </div>
       </section>
 
-      <!--Featured Collection-->
-
+      <!-- Featured Collection -->
       <section>
         <h2>Featured Collection</h2>
-        <div>
+        <div class="featured-grid">
           <div class="gem-box">
             <img src="images/g1.jpg" alt="gem1" />
             <h2>Item Natural 2.97 Cts silver</h2>
             <button>View item</button>
           </div>
-
           <div class="gem-box">
             <img src="images/g2.jpg" alt="gem2" />
             <h2>Item Natural 2.97 Cts silver</h2>
             <button>View item</button>
           </div>
-
           <div class="gem-box">
             <img src="images/g3.jpg" alt="gem3" />
             <h2>Item Natural 2.97 Cts silver</h2>
             <button>View item</button>
           </div>
-
           <div class="gem-box">
             <img src="images/g4.jpg" alt="gem4" />
             <h2>Item Natural 2.97 Cts silver</h2>
@@ -79,47 +94,45 @@
         </div>
       </section>
 
-      <!--Special Offers-->
+      <!-- Special Offers -->
       <section>
         <h2>Special Offers</h2>
-        <div class="gem-box">
-          <img src="images/g7.jpg" alt="gem7" />
-          <h2>Item Natural 2.97 Cts silver</h2>
-          <button>View item</button>
-        </div>
-
-        <div class="gem-box">
-          <img src="images/g8.jpg" alt="gem8" />
-          <h2>Item Natural 2.97 Cts silver</h2>
-          <button>View item</button>
-        </div>
-
-        <div class="gem-box">
-          <img src="images/g9.jpg" alt="gem9" />
-          <h2>Item Natural 2.97 Cts silver</h2>
-          <button>View item</button>
-        </div>
-
-        <div class="gem-box">
-          <img src="images/g10.jpg" alt="gem10" />
-          <h2>Item Natural 2.97 Cts silver</h2>
-          <button>View item</button>
-        </div>
-
-        <div class="gem-box">
-          <img src="images/g11.jpg" alt="gem11" />
-          <h2>Item Natural 2.97 Cts silver</h2>
-          <button>View item</button>
-        </div>
-
-        <div class="gem-box">
-          <img src="images/g12.jpg" alt="gem12" />
-          <h2>Item Natural 2.97 Cts silver</h2>
-          <button>View item</button>
+        <div class="featured-grid">
+          <div class="gem-box">
+            <img src="images/g7.jpg" alt="gem7" />
+            <h2>Item Natural 2.97 Cts silver</h2>
+            <button>View item</button>
+          </div>
+          <div class="gem-box">
+            <img src="images/g8.jpg" alt="gem8" />
+            <h2>Item Natural 2.97 Cts silver</h2>
+            <button>View item</button>
+          </div>
+          <div class="gem-box">
+            <img src="images/g9.jpg" alt="gem9" />
+            <h2>Item Natural 2.97 Cts silver</h2>
+            <button>View item</button>
+          </div>
+          <div class="gem-box">
+            <img src="images/g10.jpg" alt="gem10" />
+            <h2>Item Natural 2.97 Cts silver</h2>
+            <button>View item</button>
+          </div>
+          <div class="gem-box">
+            <img src="images/g11.jpg" alt="gem11" />
+            <h2>Item Natural 2.97 Cts silver</h2>
+            <button>View item</button>
+          </div>
+          <div class="gem-box">
+            <img src="images/g12.jpg" alt="gem12" />
+            <h2>Item Natural 2.97 Cts silver</h2>
+            <button>View item</button>
+          </div>
         </div>
       </section>
     </main>
 
+    <!-- Footer -->
     <footer>
       <p>© ZAHARA GEMS 2025 | Design & Maintain by Neo Solution</p>
       <p>
