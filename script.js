@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Dropdown menu behavior (hover)
+  // Dropdown menu
   const dropdown = document.querySelector(".dropdown");
   if (dropdown) {
     const dropdownMenu = dropdown.querySelector(".dropdown-menu");
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Hamburger menu toggle for responsive navbar
+  // Responsive navbar
   const hamburger = document.querySelector(".hamburger");
   const navRight = document.querySelector(".nav-right");
 
