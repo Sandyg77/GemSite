@@ -1,4 +1,3 @@
-// Optional JS if you want a mobile toggle or dropdown enhancement
 document.addEventListener("DOMContentLoaded", () => {
   const dropdown = document.querySelector(".dropdown");
   const dropdownMenu = dropdown.querySelector(".dropdown-menu");
